@@ -141,11 +141,20 @@ body {
 /* Герой */
 
 .hero {
-  text-align: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-
-  background-color: var(--footer-bgd-color); /* Тимчасовий фон */
+  text-align: center;
+  
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img-hero.jpg);
 }
 
 .hero-title {

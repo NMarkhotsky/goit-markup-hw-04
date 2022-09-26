@@ -134,6 +134,9 @@ body {
   margin-left: 50px;
 }
 
+svg {
+  margin-right: 10px;
+}
 /* .nav-item:not(:first-child) {
   margin-left: 50px;
 } */
@@ -143,12 +146,11 @@ body {
 .hero {
   max-width: 1600px;
   height: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  
+
   background-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -158,8 +160,8 @@ body {
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
+  max-width: 696px;
+  margin: 0 auto 30px auto;
 
   color: var(--secondary-color);
 
@@ -168,7 +170,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .button {
@@ -405,17 +406,20 @@ body {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-  margin-bottom: 0;
+  /* margin-top: -30px;
+  margin-left: -30px; */
+  /* margin-top: 0;
+  margin-bottom: 0; */
+  margin: 0;
   padding: 0;
+  gap: 30px;
 }
 
-.project-item {
+/* .project-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
-}
+} */
 
 .project-card {
   padding: 20px 24px;
